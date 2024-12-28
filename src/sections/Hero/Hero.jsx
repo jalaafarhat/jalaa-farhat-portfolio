@@ -36,7 +36,10 @@ function Hero() {
         <h1>
           Jalaa <br /> Farhat
         </h1>
-        <h2>Software Developer</h2>
+        <h2>
+          Software Developer <br />
+          Full-Stack Developer
+        </h2>
         <span>
           <a
             href="https://www.linkedin.com/in/jalaa-farhat-642525205/"
@@ -49,7 +52,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion to develop whatever you want bla bla bla
+          Passionate Software Developer and Full-Stack Developer eager to
+          turning innovative ideas into reality.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
