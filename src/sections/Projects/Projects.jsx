@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import godot from "../../assets/godot.jpg";
 import react from "../../assets/reacttt.png";
 import ProjectCard from "../../common/ProjectCard";
+import AI from "../../assets/AI.jpg";
 
 function projects() {
   return (
@@ -19,6 +20,12 @@ function projects() {
           link="https://github.com/jalaafarhat/jalaa-farhat-portfolio"
           h3="Portfolio Website"
           p="Portfolio Website using React"
+        />
+        <ProjectCard
+          src={AI}
+          link="https://github.com/jalaafarhat/AIContentGenerator"
+          h3="AI Content Generator (in progress)"
+          p="AI content generator website using MERN stack"
         />
       </div>
     </section>
