@@ -20,11 +20,7 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img
-          className={styles.hero}
-          src={heroImg}
-          alt="Profile picture of harris johnsen"
-        />
+        <img className={styles.hero} src={heroImg} alt="Profile picture" />
         <img
           className={styles.colorMode}
           src={themeIcon}
@@ -41,10 +37,7 @@ function Hero() {
           Full-Stack Developer
         </h2>
         <span>
-          <a
-            href="https://www.linkedin.com/in/jalaa-farhat-642525205/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/jalaafarhat/" target="_blank">
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
           <a href="https://github.com/jalaafarhat" target="_blank">
