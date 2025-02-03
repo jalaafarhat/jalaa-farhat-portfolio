@@ -2,7 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import godot from "../../assets/godot.jpg";
 import react from "../../assets/reacttt.png";
 import ProjectCard from "../../common/ProjectCard";
-import AI from "../../assets/AI.jpg";
+import Movie from "../../assets/movie.jpg";
 
 function projects() {
   return (
@@ -26,6 +26,12 @@ function projects() {
           link="https://github.com/jalaafarhat/AIContentGenerator"
           h3="AI Content Generator (in progress)"
           p="AI content generator website using MERN stack"
+        />
+        <ProjectCard
+          src={Movie}
+          link="https://github.com/jalaafarhat/IMDB-clone-website"
+          h3="IMDB clone website"
+          p="An IMDb clone website built with Express and MongoDB"
         />
       </div>
     </section>
