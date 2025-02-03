@@ -22,7 +22,6 @@ function projects() {
           h3="Portfolio Website"
           p="Portfolio Website using React"
         />
-        <br />
         <ProjectCard
           src={AI}
           link="https://github.com/jalaafarhat/AIContentGenerator"
