@@ -31,9 +31,9 @@ function projects() {
 
         <ProjectCard
           src={Movie}
-          link="https://github.com/jalaafarhat/IMDB-clone-website"
-          h3="IMDB clone website"
-          p="An IMDb clone website built with Express and MongoDB"
+          link="https://github.com/jalaafarhat/MoviesReview"
+          h3="MoviesReview"
+          p="MoviesReview: Express & MongoDB app for managing movie links and reviews."
         />
       </div>
     </section>
