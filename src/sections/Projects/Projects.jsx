@@ -33,7 +33,7 @@ function projects() {
           src={Movie}
           link="https://github.com/jalaafarhat/MoviesReview"
           h3="MoviesReview"
-          p="MoviesReview: Express & MongoDB app for managing movie links and reviews."
+          p="Express & MongoDB website for managing movie links and reviews."
         />
       </div>
     </section>
