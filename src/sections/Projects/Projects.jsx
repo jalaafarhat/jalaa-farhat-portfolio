@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import react from "../../assets/reacttt.png";
 import ProjectCard from "../../common/ProjectCard";
 import Movie from "../../assets/movie.jpg";
+import task from "../../assets/todo.jpg";
 
 function projects() {
   return (
@@ -20,6 +21,13 @@ function projects() {
           link="https://github.com/jalaafarhat/MoviesReview"
           h3="MoviesReview"
           p="Express & MongoDB website for managing movie links and reviews."
+        />
+
+        <ProjectCard
+          src={task}
+          link="https://github.com/jalaafarhat/TODO-App"
+          h3="To-Do app"
+          p="To-Do app using Next.js, TypeScript, and JSON for storage."
         />
       </div>
     </section>
