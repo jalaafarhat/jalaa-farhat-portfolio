@@ -24,10 +24,9 @@
 }
 
 .card {
-  background-color: transparent; /* Changed to transparent */
+  background-color: transparent;
   padding: 1rem;
   border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
