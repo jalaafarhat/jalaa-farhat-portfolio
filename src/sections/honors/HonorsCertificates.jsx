@@ -41,11 +41,17 @@ function HonorsCertificates() {
         {certificates.map((certificate) => (
           <div key={certificate.id} className={styles.card}>
             <div className={styles.imageContainer}>
-              <img
-                src={certificate.image || "/placeholder.svg"}
-                alt={certificate.title}
-                className={styles.image}
-              />
+              <a
+                href={certificate.image}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={certificate.image || "/placeholder.svg"}
+                  alt={certificate.title}
+                  className={styles.image}
+                />
+              </a>
             </div>
             <h3 className={styles.title}>{certificate.title}</h3>
             <p className={styles.description}>{certificate.description}</p>
