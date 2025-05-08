@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "./honorStyle.module.css";
 import t2p from "../../assets/t2p.jpeg";
 import honor from "../../assets/honorHaifa.jpeg";
+import udemy from "../../assets/udemyCertificate.jpg";
 
 function HonorsCertificates() {
   // Replace with your actual certificates data
@@ -21,6 +22,14 @@ function HonorsCertificates() {
       description:
         "Recognized by Minister Gila Gamliel for teaching Python programming to students in school and empowering youth through coding education.",
       image: honor,
+    },
+    //Full Stack Web Development With MERN STACK & GenAI 2025
+    {
+      id: 2,
+      title: "Full Stack Web Development With MERN STACK & GenAI 2025 (Udemy)",
+      description:
+        "Completed the full course on Full Stack Web Development with MERN Stack & GenAI 2025 by Masynctech Coding School on Udemy. Verified on 08/05/2025.",
+      image: udemy,
     },
   ]);
 
